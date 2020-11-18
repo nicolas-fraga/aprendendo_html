@@ -1,8 +1,20 @@
 body {
     background: #f3f3f3f3;
+    font-family:Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 #tittle, .subtittle, .post_tittle{
+    color: #505050;
+
+}
+#tittle{
+    font-size: 40px;  
+    text-transform: uppercase;
+}
+a {
+    text-decoration: underline;
     color: #505050;
 }
 .foto_do_rosto{
@@ -25,8 +37,20 @@ body {
 .post_content{
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: center;
 }
 .post_image{
     margin: 0;
     margin-bottom: 15px;
+    width: 100%;
+}
+.contact_list{
+    list-style-type: none;
+    padding-left: 1px;
+    text-align: center;
+}
+.contact_list li a {
+    color: blue;
+    text-decoration: none;
 }
